@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Groom & Bride Price Calculator</title>
+<script src="script1.js"></script>
+</head>
+<body>
+ <div class="container ">
+        <div class="row">
+            <div class="col">
+                <h1 >Groom's & Bride's Calculator</h1>
+                <p>Bride's/Groom's education:
+                    <select id = "education" >
+                        <option value = 1></option>
+                        <option value = 1.5>Undergraduate degree</option>
+                        <option value = 1.2>College degree</option>
+                        <option value = 1.05>High school degree</option>
+                        <option value = 0.9>Middle school degree</option>
+                    </select>
+                <p>Family Net Worth:
+                    <select id = "family" >
+                        <option value = 1></option>
+                        <option value = 2>More than 100,000$</option>
+                        <option value = 1.5>Between 50,000$ and 100,000$</option>
+                        <option value = 1.2>Less than 50,000$</option>
+                    </select>
+                <p>Bride's/Groom's skills:
+                    <form name = "skills" >
+                        <input name = "option" type = "checkbox"  value = 100> Playing on dombra
+                        <input  name = "option" type = "checkbox"  value = 200> Good cook
+                        <input name = "option" type = "checkbox"  value = 150> Easygoing character
+                        <input  name = "option" type = "checkbox"  value = 100> Sings well   
+                    </form>
+                <p>Bride's/Groom's age:
+                    <form name = "age" >
+                        <input name = "option" type = "radio" value = 1.5> Between 18-23
+                        <input name = "option" type = "radio" value = 1.2> Between 24-47
+                        <input  name = "option" type = "radio" value = 0.95> 28+
+                    </form>
+                <p>Bride's/Groom's reputation:
+                    <form name = "reputation" >
+                        <input name = "option" type = "checkbox" value = 0.85> Gossips about his/her parent's attitude
+                        <input  name = "option" type = "checkbox" value = 0.9> Gossips about his/her character
+                        <input  name = "option" type = "checkbox" value = 200> General gossips around his/her person
+                    </form>
+					 <label class="inputtext" for="loveletter">Love letter:</label><br>
+                            <textarea id="loveletter" name="loveletter" maxlength="500" rows="4" cols="50"></textarea><br>
+                <div class="text-center ">
+                    <p><button  onclick = "calculate()">Calculate</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
